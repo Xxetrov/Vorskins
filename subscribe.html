@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vorksins Subscribe-form</title>
+    <link href="./css/main.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"/>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./images/vorskins-logo.png" alt="Logo vorskins" width="200px">
+        </div>
+        <ul class="navbar">
+            <li>
+                <a href="Home.html" target>Home</a>
+            </li>
+            <li>
+                <a href="about.html" target>About</a>
+            </li>
+            <li>
+                <a href="products.html"target>Products</a>
+            </li>
+            <li>
+                <a href="subscribe.html" target>Subscribe</a>
+            </li>
+
+        </ul>
+    </nav>
+    <br><br><br><br><br><br>
+    
+    <section class="box">
+        <div class = "form-bg">
+            <form action="#"  method="GET">
+                <fieldset>
+                <div>
+                    <label for="form-name">Name :</label>
+                    <input id="form-name" name="form-name" type="text"><span id="error 1"></span>
+                </div>
+                <div>
+                    <label for="form-email">Email-address :</label>
+                    <input id="form-email" name="form-email" type="text"><span id="error 2"></span>
+                </div>
+                <div>
+                    <label for="form-phone">Phone-number :</label>
+                    <input id="form-phone" name="form-phone" type="text"><span id="error 3"></span>
+                </div>
+                <div>
+                    <label for="form-pass">Password :</label>
+                    <input id="form-pass" name="form-pass" type="password"><span id="error 4"></span>
+                </div>
+                <div>
+                    <label for="form-pref">Preferences :</label>
+                    <input name="form-pref" id="form-skin" type="radio">
+                    <label for="form-skin">Skin Care</label>
+                    <input name="form-pref" id="form-body" type="radio">
+                    <label for="form-body">Body Care</label><span id="error 5"></span>
+                </div>
+                <div>
+                    <input name="form-checkbox" id="form-checkbox" type="checkbox">
+                    <label for="form-checkbox">Agree to terms and conditions</label>
+                </div>
+                <button type="submit" onclick="formValidate()">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    <script src="./javascript/script.js"></script>
+    </div>
+    <div class="footer">
+        <div class="social">
+            <img src="./images/instagram_icon.png.webp" ><span class="social-text">VOr_skins</span>
+        </div>
+        <div class="social">
+            <img src="./images/email-logo.png" ><span class="social-text">VOrskins@gmail.com</span>
+        </div>
+        <div class="social">
+            <img src="./images/phone-icon.png"><span class="social-text">0898883241</span>
+        </div>
+</div>
+</body>
+</html>
